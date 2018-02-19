@@ -3,11 +3,11 @@ A tool to find administrator page
 
 
                 ###################################################
-                #                Angga Lanuma                     #
+                #                RIfki Pasaribu                   #
                 #                                                 #
-                #  lanuma.angga@gmail.com  lanuma@mc-crew.or.id   #
+                #             rifkipsb48@gmail.com                #
                 #                                                 #
-                #          Thanks to Malang Cyber Crew            #
+                #              Thanks to Allah SWT                #
                 ###################################################
 Type "python adminFinder.py -h" for help
 
