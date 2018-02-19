@@ -8,23 +8,72 @@ if sys.platform == 'linux' or sys.platform == 'linux2':
 	me.call("clear",shell=True)
 else:
 	me.call("cls",shell=True)
-
-
+	
+	
 cetak="""
 \t\t###################################################
-\t\t#                Angga Lanuma                     #
+\t\t#                Rifki Pasaribu                   #
 \t\t#                                                 #
-\t\t#  lanuma.angga@gmail.com  lanuma@mc-crew.or.id   #
+\t\t#             rifkipsb48@gmail.com                #
 \t\t#                                                 #
-\t\t#          Thanks to Malang Cyber Crew            #
+\t\t#              Thanks to Allah SWT                #
 \t\t###################################################"""
 
-parser=optparse.OptionParser(usage='python %s  -t http://target.com' %(sys.argv[0]))
+# c0dEd t3rs4k1t1
+
+# for tuto ethical hacking and tools visit us in : www.facebook.com/secdz.tn
+
+# Enc0de by : t3rs4k1t1
+
+# Admin finder v.0.2 / aded 1696 admin panel /
+
+w  = '\033[0m'  
+
+r  = '\033[31m' 
+
+o  = '\033[33m' 
+
+b  = '\033[34m'
+
+import sys
+
+import time
+
+import httplib
+
+import os
+
+
+
+def slowprint(s):
+
+    for c in s + '\n':
+
+        sys.stdout.write(c)
+
+        sys.stdout.flush()
+
+        time.sleep(8./90)
+
+
+
+mtucx = "love"
+
+if mtucx=="love":
+
+         
+          print r+"root@t3rs4k1t1:~#"
+
+          print (o+"Coded By t3rs4k1t1")
+
+          print (r+"Enc0de To Indonesian by : t3rs4k1t1")
+
+parser=optparse.OptionParser(usage='python %s  -t www.target.com' %(sys.argv[0]))
 parser.add_option("-t", action="store",dest="target",help="target site", default="")
 
 (options,args) = parser.parse_args()
 if options.target=="": 
-	print (cetak)
+	print
 	print ("Type \"python %s -h\" for help"%sys.argv[0])
 else:
 
@@ -32,7 +81,7 @@ else:
 		var1=0
 		var2=0
 	
-		php = ['admin/','administrator/','admin1/','admin2/','admin3/','admin4/','admin5/','usuarios/','usuario/','administrator/','moderator/','webadmin/','adminarea/','bb-admin/','adminLogin/','admin_area/','panel-administracion/','instadmin/',
+		php = ['admin/','administrator/','adminweb/','admin1/','admin2/','admin3/','admin4/','usuarios/','usuario/','administrator/','moderator/','webadmin/','adminarea/','bb-admin/','adminLogin/','admin_area/','panel-administracion/','instadmin/',
 		'memberadmin/','administratorlogin/','adm/','admin/account.php','admin/index.php','admin/login.php','admin/admin.php','admin/account.php',
 		'admin_area/admin.php','admin_area/login.php','siteadmin/login.php','siteadmin/index.php','siteadmin/login.html','admin/account.html','admin/index.html','admin/login.html','admin/admin.html',
 		'admin_area/index.php','bb-admin/index.php','bb-admin/login.php','bb-admin/admin.php','admin/home.php','admin_area/login.html','admin_area/index.html',
@@ -56,7 +105,7 @@ else:
 			print (cetak)
 			alamat=options.target		#raw_input("Masukkan Alamat WebSite: ")
 			alamat=alamat.replace("http://","")
-			print ("Check " + alamat + " dulu bozz!!....")
+			print ("Check " + alamat + " dulu boss!!....")
 			konek=httplib.HTTPConnection(alamat)
 			konek.connect()
 			print "[$]Siip.. Website Online..\n"
