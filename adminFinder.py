@@ -1,5 +1,10 @@
 #! /usr/bin/python
 
+"""
+Copyright (c) 2006-2018 adminfinder developers (rifkipsb/)
+[!]Gak usah sok ganti-ganti codingnya kalau mau di hargai[!]
+"""
+
 import httplib,socket,sys
 import subprocess as me
 import optparse
@@ -64,11 +69,9 @@ if mtucx=="love":
          
           print r+"root@t3rs4k1t1:~#"
 
-          print (o+"Coded By t3rs4k1t1")
+          
 
-          print (r+"Enc0de To Indonesian by : t3rs4k1t1")
-
-parser=optparse.OptionParser(usage='python %s  -t www.target.com' %(sys.argv[0]))
+parser=optparse.OptionParser(usage='python %s  -t http://target.com' %(sys.argv[0]))
 parser.add_option("-t", action="store",dest="target",help="target site", default="")
 
 (options,args) = parser.parse_args()
