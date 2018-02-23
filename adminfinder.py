@@ -22,11 +22,11 @@ cetak="""
 \033[1;32;40m /        \\\033[1;31;40m|   Y  \  ___/|  |_|  |_\033[1;32;40m\     \___(\033[1;32;40m  <_> ) /_/ \  ___/ \033[0m
 \033[1;32;40m/_______  /\033[1;31;40m|___|  /\___  >____/____\033[1;32;40m/\______  /\033[1;32;40m\____/\____ |\___  >\033[0m
 \033[1;32;40m        \/ \033[1;31;40m     \/     \/          \033[1;32;40m        \/ \033[1;32;40m           \/    \/ \033[0m   
-\033[1;31;40mcontact me : satpamtertawa@gmai.com  \033[1;33;40m code by: rifki pasaribu         \033[0m    """
+\033[1;31;40mcontact me: rifkipsb48@gmail.com   \033[1;33;40m coded by: rifki pasaribu         \033[0m    """
 
 # c0dEd t3rs4k1t1
 
-# for tuto ethical hacking and tools visit us in : www.facebook.com/secdz.tn
+# for tuto ethical hacking and tools visit us in : www.facebook.com/IMPICIBLE
 
 # Enc0de by : t3rs4k1t1
 
@@ -79,6 +79,7 @@ parser.add_option("-t", action="store",dest="target",help="target site", default
 if options.target=="": 
 	print
 	print ("Type \"python %s -h\" for help"%sys.argv[0])
+	print ("[!] contohnya adminfinder.py -t www.blabla.com [!]")
 else:
 
 	try:
@@ -109,12 +110,12 @@ else:
 			print (cetak)
 			alamat=options.target		#raw_input("Masukkan Alamat WebSite: ")
 			alamat=alamat.replace("http://","")
-			print ("Check " + alamat + " dulu boss!!....")
+			print ("Check " + alamat + " dulu bossQ!!....")
 			konek=httplib.HTTPConnection(alamat)
 			konek.connect()
 			print "[$]Siip.. Website Online..\n"
 		except (httplib.HTTPResponse, socket.error) as Exit:
-			raw_input("[!] ups, server offline atau alamat web salah")
+			raw_input("[!] ups, tidak ada koneksi internet bossQ")
 			exit()
 		#print "Masukkan site source"
 		#print "1. PHP (default)"
